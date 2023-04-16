@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35739880.css",
+    "main.js": "/static/js/main.76ce3337.js",
+    "static/media/Whale.mp4": "/static/media/Whale.9f2c221fb5d8f584808a.mp4",
+    "static/media/PIDVid.mp4": "/static/media/PIDVid.6d3975ebdec2d54556eb.mp4",
+    "static/media/Whale2.mp4": "/static/media/Whale2.f199364b238081c065ad.mp4",
+    "static/media/ArduinoCar.jpg": "/static/media/ArduinoCar.6866d46e67f26c2430ae.jpg",
+    "static/media/Xwing.mp4": "/static/media/Xwing.315a3e873e479c688af0.mp4",
+    "static/media/PID.jpg": "/static/media/PID.9ec420b5bc5f81ebd19b.jpg",
+    "static/media/Jesture.jpg": "/static/media/Jesture.894a7ac7bf5a01bdafbd.jpg",
+    "static/media/ToyotaHack.png": "/static/media/ToyotaHack.4646d56e1f9d23615d47.png",
+    "static/media/ECG.jpg": "/static/media/ECG.6404a68c8264baefa798.jpg",
+    "static/media/ASR.jpg": "/static/media/ASR.2685aa4f6dcceaf62ab7.jpg",
+    "index.html": "/index.html",
+    "main.35739880.css.map": "/static/css/main.35739880.css.map",
+    "main.76ce3337.js.map": "/static/js/main.76ce3337.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35739880.css",
+    "static/js/main.76ce3337.js"
+  ]
+}
