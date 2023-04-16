@@ -59,25 +59,62 @@ video {
 .image-container {
     position: relative;
     display: inline-block;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(35, 64, 77, 0.5);
-    color: white; 
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background-color: rgba(35, 64, 77, 0.5);
+color: white; 
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.5s;
+padding: 10%;
+}
+
+.image-container:hover .overlay {
+opacity: 1;
+}
+
+.video-container {
+    position: relative;
+    z-index: 10;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.PIDControler{
+    height: 100vh;   
+    overflow: hidden;
+}
+
+.Project-description {
+    height: 100vh;
+    font-size: 1.5rem !important;
+}
+
+.ForFun {
     display: flex;
-    align-items: center;
+    position: absolute;
     justify-content: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-    padding: 10%;
-  }
-  .image-container:hover .overlay {
-    opacity: 1;
-  }
+}
+
+{/*}.jot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 5px;
+    text-align: center;
+  }*/}
+  
 
 
 .content-div {
