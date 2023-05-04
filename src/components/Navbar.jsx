@@ -24,11 +24,7 @@ const Navbar = () => {
             Home
           </Link>
           </li>
-          <li className="hover:text-[#D45550]">
-          <Link to='/About' >
-            About
-          </Link>
-          </li>
+         
           <li className="hover:text-[#D45550]">
           <Link to='/Projects' smooth={true} duration={500}>
             Projects 

@@ -11,12 +11,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
+
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Projects-PIDController" element={<PIDController />} />
+
       </Routes>
     </div>
-  );
+  );  
 }
 
 export default App;

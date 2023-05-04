@@ -7,14 +7,14 @@ import Jesture from "../assets/Jesture.jpg";
 import ASR from "../assets/ASR.jpg";
 import Xwing from "../assets/Xwing.mp4";
 
-import { Link } from "react-router-dom";
+
 
 const Projects = () => {
   return (
   <div className="Projects">
     <div className="bg-[#1a3036] w-full h-full">
       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[70px]">
-        <Link to="/Projects-PIDController"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
+     <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
           <h1 className="font-bold text-3xl " >
             PID Controller{" "}
           </h1>
@@ -30,8 +30,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        </Link>
-        <Link to="/Projects-EmotionalCardiography"><div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
+       
+        <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
           <h1 className="font-bold text-3xl">
             Emotional Cardiography{" "}
           </h1>
@@ -48,8 +48,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        </Link>
-        <Link to="/Projects-JestureBot">
+      
           <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
             <h1 className="font-bold text-3xl">
             Gesture controlled Arduino car{" "}
@@ -66,9 +65,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </Link>
 
-        <Link to="/Projects-ToyotaHackathon">
+
+
           <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
             <h1 className="font-bold  text-3xl">
               Wheel Detection Algorithm{" "}
@@ -87,8 +86,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </Link>
-        <Link to="/Projects-ArduinoCar">
+   
+
           <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
             <h1 className="font-bold  text-3xl">
               Arduino Line-Folllowing/Bluetooth Car{" "}
@@ -105,8 +104,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </Link>
-        <Link to="/Projects-ASR">
+   
           <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
             <h1 className="font-bold  text-3xl">
               Autonomus Sketching Robot{" "}
@@ -123,7 +121,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </Link>
+  
       </div>
     </div>
 
