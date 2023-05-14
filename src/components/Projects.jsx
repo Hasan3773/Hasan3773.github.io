@@ -2,19 +2,19 @@ import React from "react";
 import Arduino from "../assets/ArduinoCar.jpg";
 import PID from "../assets/PID.jpg";
 import Toyota from "../assets/ToyotaHack.png";
-import ECG from "../assets/ECG.jpg";
+import ECG from "../assets/Emotion.jpg";
 import Jesture from "../assets/Jesture.jpg";
 import ASR from "../assets/ASR.jpg";
 import Xwing from "../assets/Xwing.mp4";
 
-
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
   <div className="Projects">
-    <div className="bg-[#1a3036] w-full h-full">
-      <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[70px]">
-     <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
+    <div className="bg-[#9790cc] w-full h-full">
+      <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[85px]">
+      <Link to="/Projects-PIDController"><div className="p-4 rounded-lg text-[#fdfffc] ">
           <h1 className="font-bold text-3xl " >
             PID Controller{" "}
           </h1>
@@ -30,8 +30,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-       
-        <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
+        </Link>
+        <Link to="/Projects-EmotionalCardiography"><div className="p-4 rounded-lg text-[#fdfffc]  ">
           <h1 className="font-bold text-3xl">
             Emotional Cardiography{" "}
           </h1>
@@ -47,9 +47,11 @@ const Projects = () => {
               <p>Revolutionary tech using openCV, machine learning & heartbeat sensors to monitor multiple patients, giving doctors early detection & improved accessibility to hospital safety</p>
             </div>
           </div>
+          
         </div>
+        </Link> 
       
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
+        <Link to="/Projects-JestureBot"><div className="p-4 rounded-lg text-[#fdfffc]  ">
             <h1 className="font-bold text-3xl">
             Gesture controlled Arduino car{" "}
             </h1>
@@ -65,10 +67,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          </Link> 
 
-
-
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
+          <Link to="/Projects-ToyotaHackathon"><div className="p-4 rounded-lg text-[#fdfffc] ">
             <h1 className="font-bold  text-3xl">
               Wheel Detection Algorithm{" "}
             </h1>
@@ -86,9 +87,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-   
+          </Link>
 
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987]">
+          <Link to="/Projects-ArduinoCar"><div className="p-4 rounded-lg text-[#fdfffc] ">
             <h1 className="font-bold  text-3xl">
               Arduino Line-Folllowing/Bluetooth Car{" "}
             </h1>
@@ -104,8 +105,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-   
-          <div className="p-4 rounded-lg text-[#fdfffc] hover:text-[#249987] ">
+          </Link>
+
+          <Link to="/Projects-ASR"><div className="p-4 rounded-lg text-[#fdfffc] ">
             <h1 className="font-bold  text-3xl">
               Autonomus Sketching Robot{" "}
             </h1>
@@ -121,22 +123,10 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          </Link> 
   
       </div>
     </div>
-
-  {/*}
-    <div className="ForFun">
-      <div className="text-white text-center text-4xl center font-bold py-5" >
-        <h1 style={{display: "flex", justifyContent: "center"}} >For Fun Projects</h1>
-        <h1 className="font-bold text-3xl">Xwing designed, composited & rendered in blender{" "}</h1>
-        <div className="image-container">
-          <video src={Xwing} autoPlay loop className="w-screen rounded-xl pt-5px "></video>
-        </div>
-      </div>
-    </div>
-  */}
-
   </div>
   );
 };

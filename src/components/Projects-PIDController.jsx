@@ -1,24 +1,22 @@
 import React from "react";
-import PID from "../assets/PID.jpg";
 import PIDVid from "../assets/PIDVid.mp4";
 
 const PIDController = () => {
     return (
     <div className="PIDControler">
-      <div name="PID-Controller" className="w-full bg-[#1a3036] pt-[80px] text-[#fdfffc]">
+      <div name="PID-Controller" className="w-full bg-[#9790cc] pt-[80px] text-[#fdfffc]">
         <div className="flex flex-col justify-center items-center w-full">
             
-        <p className="text-4xl font-bold inline border-b-4 border-[#249987] pb-1 gap-8">
+        <p className="text-4xl font-bold inline border-b-4 border-[#FFBD59] pb-1 gap-8">
                   Proportional Integral Derivative Control System 
         </p>
   
           <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-            <div className="sm:text-right pb-8">
-           
+          <div className="sm:text-right pb-8">
             </div>
           </div>
   
-          <div className="max-w-[1400px] w-full px-4 grid sm:grid-cols-2 gap-8">
+          <div className="max-w-[1500px] w-full px-4 grid sm:grid-cols-2 gap-8">
               <div>
                   <div className="video-container">
                       <video className="w-full p-[px] rounded-2xl" controls muted>

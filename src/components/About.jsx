@@ -1,24 +1,20 @@
 import React from 'react'
-import whale2 from '../assets/Whale2.mp4';
 
 const About = () => {
   return (
     <div className="About"> 
-    <video src={whale2} autoPlay loop muted />
-  
     <div className="Description2">
-    <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1800px] w-full px-4 grid grid-cols-2 gap-8'>
-                <div className='md:text-right pb-8 pl-4'>
-                    <p className='text-7xl font-bold inline border-b-4 border-[#33689b]'>About</p>
+    <div className=' bg-[#b390cc] flex flex-col justify-center items-center w-full h-full'>
+            <div className='max-w-[1800px] w-full px-4  gap-8'>
+                <div className='md:text-left pb-8'>
+                    <p className='text-6xl font-bold inline border-b-4 border-[#FFBD59]  '>Here's a small glance at who I am!</p>
                 </div>
                 </div>
-                <div className='max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-6xl font-bold'>
-                  <p>Hi, I'm Hasan, nice to meet you, take a look around!</p>
-                </div>
-                <div className='sm:text-right text-xl font-bold'>
-                  <p>I am passionate about blah blah, my hobies are blah blah, and i dream to blah blah. I am passionate about blah blah, my hobies are blah blah, and i dream to blah blah. I am passionate about blah blah, my hobies are blah blah, and i dream to blah blah</p>
+                <div className='max-w-[1800px] w-full  gap-12 px-4'>
+             
+                <div className='text-left text-4xl  font-bold '>
+                <p style={{ marginBottom: '2rem' }}>I am a Mechatronics Engineering student at the University of Waterloo, who genuinely enjoys everything that goes into making robots. Currently, I am very interested in Embedded Software Development, Control Systems & Machine Learning!</p>
+                <p>I am someone who finds their happiness in the pursuit of goals & dreams, meaning I am incredibly driven and happy on a daily basis because I get to do what I love :) Some of my long term goals are to create a successful tech start up and to become a professional body builder.</p>
                 </div>
             </div>
         </div>
