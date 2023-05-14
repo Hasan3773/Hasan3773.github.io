@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.35739880.css",
-    "main.js": "/static/js/main.e05c0ac1.js",
+    "main.css": "/static/css/main.03549ce7.css",
+    "main.js": "/static/js/main.2a30d111.js",
     "static/media/Whale.mp4": "/static/media/Whale.9f2c221fb5d8f584808a.mp4",
     "static/media/PIDVid.mp4": "/static/media/PIDVid.6d3975ebdec2d54556eb.mp4",
-    "static/media/Whale2.mp4": "/static/media/Whale2.f199364b238081c065ad.mp4",
     "static/media/ArduinoCar.jpg": "/static/media/ArduinoCar.6866d46e67f26c2430ae.jpg",
     "static/media/Xwing.mp4": "/static/media/Xwing.315a3e873e479c688af0.mp4",
     "static/media/PID.jpg": "/static/media/PID.9ec420b5bc5f81ebd19b.jpg",
     "static/media/Jesture.jpg": "/static/media/Jesture.894a7ac7bf5a01bdafbd.jpg",
+    "static/media/Toyota.PNG": "/static/media/Toyota.625b9cb1ed305c6fe83f.PNG",
+    "static/media/ArduinoCar1.PNG": "/static/media/ArduinoCar1.a5478c817d6b02a5c86d.PNG",
+    "static/media/ASR2.PNG": "/static/media/ASR2.8902984298926b08bbc9.PNG",
     "static/media/ToyotaHack.png": "/static/media/ToyotaHack.4646d56e1f9d23615d47.png",
-    "static/media/ECG.jpg": "/static/media/ECG.6404a68c8264baefa798.jpg",
+    "static/media/ECG.png": "/static/media/ECG.ed1b530b52bffd6d8447.png",
     "static/media/ASR.jpg": "/static/media/ASR.2685aa4f6dcceaf62ab7.jpg",
+    "static/media/Emotion.jpg": "/static/media/Emotion.7db19b4348d228a5a559.jpg",
     "index.html": "/index.html",
-    "main.35739880.css.map": "/static/css/main.35739880.css.map",
-    "main.e05c0ac1.js.map": "/static/js/main.e05c0ac1.js.map"
+    "main.03549ce7.css.map": "/static/css/main.03549ce7.css.map",
+    "main.2a30d111.js.map": "/static/js/main.2a30d111.js.map"
   },
   "entrypoints": [
-    "static/css/main.35739880.css",
-    "static/js/main.e05c0ac1.js"
+    "static/css/main.03549ce7.css",
+    "static/js/main.2a30d111.js"
   ]
 }
