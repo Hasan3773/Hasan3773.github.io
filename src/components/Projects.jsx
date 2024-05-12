@@ -14,7 +14,7 @@ const Projects = () => {
   <div className="Projects">
     <div className="bg-[#9790cc] w-full h-full">
       <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3 p-[30px] pt-[85px]">
-      <Link to="/Projects-PIDController"><div className="p-4 rounded-lg text-[#fdfffc] ">
+      <div className="p-4 rounded-lg text-[#fdfffc] ">
           <h1 className="font-bold text-3xl " >
             PID Controller{" "}
           </h1>
@@ -30,7 +30,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        </Link>
         <Link to="/Projects-EmotionalCardiography"><div className="p-4 rounded-lg text-[#fdfffc]  ">
           <h1 className="font-bold text-3xl">
             Emotional Cardiography{" "}
